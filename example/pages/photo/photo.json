@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "gesture": "../../component/gesture/gesture"
+    "gesture": "/miniprogram_npm/miniprogram-gesture/gesture"
   },
   "disableScroll": true
 }

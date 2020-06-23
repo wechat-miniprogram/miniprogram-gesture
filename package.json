@@ -1,8 +1,9 @@
 {
   "name": "miniprogram-gesture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "miniprogram": "dist",
   "scripts": {},
   "author": "",
   "license": "ISC"

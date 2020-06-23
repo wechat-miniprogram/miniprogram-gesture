@@ -2,6 +2,13 @@
 
 这个手势库可以使微信小程序拥有识别手势的能力。本代码部分参考自 [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger)。
 
+## 使用方法
+
+1.  在小程序的目录下依次执行 `npm init -y`, `npm i miniprogram-gesture`
+2.  小程序开启 `使用 npm 模块` 开关
+3.  在开发者工具上，点击 `工具`， `构建 npm`
+4.  即可使用，使用方法参考 demo
+
 ## 注意事项
 
 1.  本事件可以利用 `WXS` 在 `渲染层` 触发，如果回调函数，只是修改 `WebView` 的 `CSS` 属性、 `DOM` 属性，建议采取此种触发方式，性能较高；也可以在 Service 层 (逻辑层) 触发。
