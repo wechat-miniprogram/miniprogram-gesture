@@ -1,6 +1,6 @@
 # Wechat MiniProgram Gesture Library (微信小程序手势库)
 
-这个手势库可以使微信小程序拥有识别手势的能力。
+这个手势库可以使微信小程序拥有识别手势的能力。本代码部分参考自 [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger)。
 
 ## 注意事项
 
