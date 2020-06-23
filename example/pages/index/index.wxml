@@ -1,0 +1,6 @@
+<view>
+  <button bindtap="basic">基本使用</button>
+  <button bindtap="propagation">冒泡处理</button>
+  <button bindtap="requireFailure">requireFailure</button>
+  <button bindtap="photo">仿朋友圈照片</button>
+</view>

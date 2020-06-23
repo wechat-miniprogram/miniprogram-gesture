@@ -1,0 +1,13 @@
+.wrapper {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  position: fixed;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: fixed;
+}

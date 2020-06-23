@@ -1,0 +1,11 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  color: white;
+  margin: 20px;
+}
+
+.log {
+  margin: 0 20px;
+}

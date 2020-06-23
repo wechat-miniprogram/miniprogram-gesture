@@ -1,0 +1,10 @@
+<wxs src="./anim.wxs" module="anim"></wxs>
+<button bindtap="handlePropagation">{{propagation ? 'ON' : 'OFF'}}</button>
+<gesture bindpressMove="{{anim.pressmovewrapper}}">
+	<view class="wrapper" id="wrapper" style="left: 0; top: 0;">
+		<gesture bindpressMove="{{anim.pressmoveinner}}" propagation="{{propagation}}">
+			<view class="inner" id="inner" style="left: 0; top: 0;">
+			</view>
+		</gesture>
+	</view>
+</gesture>

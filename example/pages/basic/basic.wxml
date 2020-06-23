@@ -1,0 +1,13 @@
+<wxs module="anim" src="./anim.wxs"></wxs>
+
+<view>
+  <gesture 
+    bindrotate="{{anim.rotate}}" 
+    bindmultipointStart="{{anim.multitouchstart}}"
+    bindpinch="{{anim.pinch}}"
+    bindpressMove="{{anim.pressmove}}"
+    bindtwoFingerPressMove="{{anim.pressmove}}"
+  >
+    <view class="test" id="test"></view>
+  </gesture>
+</view>

@@ -1,0 +1,7 @@
+<wxs module="anim" src="./anim.wxs"></wxs>
+
+<view class="root">
+	<gesture bindmultipointStart="{{anim.multitouchstart}}" bindpinch="{{anim.pinch}}" bindpressMove="{{anim.pressmove}}" bindtwoFingerPressMove="{{anim.pressmove2}}" bindtouchStart="{{anim.touchstart}}" bindtouchEnd="{{anim.touchend}}">
+		<image src="./avatar.jpg" class="avatar" id="avatar"></image>
+	</gesture>
+</view>

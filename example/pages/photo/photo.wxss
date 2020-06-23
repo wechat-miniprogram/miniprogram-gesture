@@ -1,0 +1,18 @@
+.avatar {
+  position: absolute;
+  height: 100vw;
+  width: 100vw;
+  top: calc((100vh - 100vw)/2);
+
+  will-change: transform;
+}
+
+.root {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.avatar-animation {
+  transition: all .2s cubic-bezier(.33, .63, .65, .99);
+}
