@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "miniprogram-gesture": "^1.0.0"
+    "miniprogram-gesture": "^1.0.3"
   },
   "devDependencies": {},
   "keywords": [],

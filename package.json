@@ -1,10 +1,13 @@
 {
   "name": "miniprogram-gesture",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "miniprogram": "dist",
   "scripts": {},
-  "author": "",
-  "license": "ISC"
+  "author": "yangziyue80@outlook.com",
+  "license": "MIT",
+  "repository": {
+    "github": "https://github.com/ttzztztz/miniprogram-gesture"
+  }
 }
