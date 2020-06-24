@@ -1,4 +1,3 @@
-// pages/requireFailure/requireFailure.js
 Component({
   data: {
     log: [],

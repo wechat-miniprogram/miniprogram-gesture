@@ -4,10 +4,19 @@
   "description": "",
   "main": "index.js",
   "miniprogram": "dist",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "author": "yangziyue80@outlook.com",
   "license": "MIT",
   "repository": {
     "github": "https://github.com/ttzztztz/miniprogram-gesture"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0"
   }
 }
