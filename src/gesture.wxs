@@ -32,21 +32,14 @@ function _swipeDirection(x1, x2, y1, y2) {
   }
 }
 // 实现setTimeout功能
-var setTimeout = function(cb, interval, instance) { 
+var setTimeout = function(callback, interval, instance) { 
   var now = Date.now
   var stime = now()
-  var lock = false
-  var etime = stime
   var loop = function() {
-    instance.requestAnimationFrame(loop)
-    etime = now()
-    if (etime - stime >= interval) {
-      if(!lock) {
-        lock = true
-        cb()
-      }
-      // 没有 cancel 方法
-      // instance.cancelAnimationFrame(timeUtils.timeoutTimer)
+    if (now() - stime >= interval) {
+      callback()
+    } else {
+      instance.requestAnimationFrame(loop)
     }
   }
   instance.requestAnimationFrame(loop)
